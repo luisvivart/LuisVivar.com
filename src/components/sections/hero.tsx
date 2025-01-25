@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I'm a skilled professional with 7 years of experience in Software Engineering 
+              I&apos;m a skilled professional with 7 years of experience in Software Engineering 
               and a strong foundation in Data Science and Machine Learning. 
               Proficient in developing scalable, data-driven solutions and optimizing workflows through predictive modeling, 
               algorithms, and advanced analytics. Passionate about leveraging technology to derive actionable insights and deliver impactful results.
