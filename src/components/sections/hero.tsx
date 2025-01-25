@@ -51,8 +51,8 @@ const HeroSection = () => {
                 </span>
               </div>
               <Typography>Available for new projects</Typography>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
           <SocialIcons />
         </div>
       </div>
