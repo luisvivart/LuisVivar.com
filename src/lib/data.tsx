@@ -23,7 +23,7 @@ import LogoDanMarinoFoundation from '/public/images/logos/logo-danmarino.png';
 // import LogoCardoneTrainingTechnologies from '/public/images/logos/logo-cardone.svg';
 
 // PROJECTS
-import ProjectSpaceX from '/public/images/logo-spacex.svg';
+import ProjectSpaceX from '/public/images/logos/logo-spacex.svg';
 
 // TESTIMONIALS
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
