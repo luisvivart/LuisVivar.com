@@ -14,15 +14,6 @@
 - [Lucide Icons](https://lucide.dev) - Beautifully simple, pixel-perfect icons
 - [Next Themes](https://github.com/pacocoursey/next-themes) - An abstraction for themes (Dark + Light Mode).
 
-## Running Locally
-
-```bash
-$ git clone https://github.com/luisvivart/luisvivart.github.io
-$ cd luisvivart.github.io
-$ npm install
-$ npm run dev
-```
-
 ## License
 
 Licensed under the [MIT license](https://github.com/luisvivart/luisvivart.github.io/blob/main/LICENSE).
