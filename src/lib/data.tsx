@@ -51,10 +51,10 @@ export const NAV_LINKS = [
     label: 'Projects',
     href: '#projects',
   },
-  {
-    label: 'Testimonials',
-    href: '#testimonials',
-  },
+  // {
+  //   label: 'Testimonials',
+  //   href: '#testimonials',
+  // },
   {
     label: 'Contact',
     href: '#contact',
@@ -194,26 +194,26 @@ export const PROJECTS: ProjectDetails[] = [
   },
 ];
 
-export const TESTIMONIALS: TestimonialDetails[] = [
-  {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Luis and will rehire in the future for Frontend development.',
-  },
-  {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
-    testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
-  },
-  {
-    personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Luis was extremely easy and pleasant to work with and he truly cares about the project being a success. Luis has a high level of knowledge and was able to work on my MERN stack application without any issues.',
-  },
-];
+// export const TESTIMONIALS: TestimonialDetails[] = [
+//   {
+//     personName: 'Krisztian Gyuris',
+//     personAvatar: AvatarKrisztian,
+//     title: 'Founder - inboxgenie.io',
+//     testimonial:
+//       'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Luis and will rehire in the future for Frontend development.',
+//   },
+//   {
+//     personName: 'Eugen Esanu',
+//     personAvatar: AvatarEugen,
+//     title: 'Founder - shosho.design',
+//     testimonial:
+//       'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+//   },
+//   {
+//     personName: 'Joe Matkin',
+//     personAvatar: AvatarDummy,
+//     title: 'Freelancer',
+//     testimonial:
+//       'Luis was extremely easy and pleasant to work with and he truly cares about the project being a success. Luis has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+//   },
+// ];
