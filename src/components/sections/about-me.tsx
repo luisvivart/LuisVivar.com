@@ -57,10 +57,6 @@ const AboutMeSection = () => {
             As work, as a hobby, and as a passion.
           </Typography>
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
-          </Typography>
-          <Typography>
             When I&apos;m not in full-on developer mode, you can find me
             scrolling through instagram. You can follow me on{' '}
             <Link
@@ -71,17 +67,12 @@ const AboutMeSection = () => {
             >
               Instagram
             </Link>{' '}
-            where I share a bit more personal stuff (usually travelling or hanging with my family), or you can
+            where I share a bit more personal stuff (usually travelling or hanging out with my family), or you can
             follow me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
+            <Link noCustomization external withUnderline href={EXTERNAL_LINKS.GITHUB}>
+              GitHub 
             </Link>
-            for more of my work that I am apble to publish publically.
+            for more of my work.
           </Typography>
           <Typography>Finally, some quick bits about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
@@ -90,8 +81,9 @@ const AboutMeSection = () => {
               <Typography component="li">B.A. in Data Visualization</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Dog lover</Typography>
+              <Typography component="li">Avid Learner</Typography>
+              <Typography component="li">Dog Lover</Typography>
+              <Typography component="li">Gym Enthusiast</Typography>
             </ul>
           </div>
           {/* <Typography>
