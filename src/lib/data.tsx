@@ -8,19 +8,19 @@ import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoPython from '/public/images/logos/logo-python.png';
 import LogoR from '/public/images/logos/logo-r.png';
 import LogoSQL from '/public/images/logos/logo-sql.png';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-// import LogoCypress from '/public/images/logos/icon-cypress.svg';
-// import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-// import LogoStorybook from '/public/images/logos/icon-storybook.svg';
+import LogoOllama from '/public/images/logos/icon-ollama.png';
+import LogoLMStudio from '/public/images/logos/icon-lm-studio.jpg';
+import LogoComfyUI from '/public/images/logos/icon-comfyUI.webp';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
 // EXPERIENCE
 import LogoJuvare from '/public/images/logos/logo-juvare.svg';
+import LogoJuvareDark from '/public/images/logos/logo-juvare-dark.svg';
 import LogoThe3rdEye from '/public/images/logos/logo-the3rdeye.png';
 import LogoDanMarinoFoundation from '/public/images/logos/logo-danmarino.png';
-// import LogoCardoneTrainingTechnologies from '/public/images/logos/logo-cardone.svg';
+import LogoCardoneEnterprises from '/public/images/logos/logo-cardone-enterprises.png';
 
 // PROJECTS
 import ProjectSpaceX from '/public/images/logos/logo-spacex.svg';
@@ -89,9 +89,14 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: '',
   },
   {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
+    label: 'Ollama',
+    logo: LogoOllama,
+    url: 'https://ollama.com/',
+  },
+  {
+    label: 'LM Studio',
+    logo: LogoLMStudio,
+    url: 'https://lmstudio.ai/',
   },
   {
     label: 'Javascript',
@@ -128,21 +133,27 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'ComfyUI',
+    logo: LogoComfyUI,
+    url: 'https://www.comfy.org/',
+  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoJuvare,
-    logoAlt: 'Upwork logo',
+    darkModeLogo: LogoJuvareDark,
+    logoAlt: 'Juvare logo',
     position: 'Software Engineer, Front End',
     startDate: new Date(2022, 8),
     currentlyWorkHere: true,
     summary: [
-      'Analyze and visualize SQL server data to improve performance and decision-making processes.',
-      'Develop web apps and dashboards to help federal agencies support and handle their databases.',
+      'Handle relational and non-relational databases in SQL Server data.',
+      'Leverage company fine-tuned LLMs to improve performance and decision-making processes.',
+      'Develop web apps and interfaces for federal agencies to handle their databases.',
       'Collaborate with data teams to structure and query large datasets for optimized reporting.',
-      'Integrate rest APIs to optimize data exchange between internal and client systems.',
-      'Apply Agile methodologies to manage tasks and deliver projects on schedule.'
+      'Integrate rest APIs to optimize data exchange between internal and client systems.'
     ],
   },
   {
@@ -162,11 +173,22 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoDanMarinoFoundation,
     // darkModeLogo: LogoDanMarinoFoundationLight,
     logoAlt: 'Dan Marino Foundation logo',
-    position: 'Front End Web Developer',
+    position: 'Front End Developer',
     startDate: new Date(2020, 8),
     endDate: new Date(2021, 9),
     summary: [
       'Deployed a secure donations portal with data validation, improving transaction efficiency by 78%.',
+      'Leveraged web analytics tools to track user behavior and optimize retention on the main website by 24%.'
+    ],
+  },
+  {
+    logo: LogoCardoneEnterprises,
+    logoAlt: 'Cardone Enterprises logo',
+    position: 'UI/UX Developer',
+    startDate: new Date(2020, 8),
+    endDate: new Date(2018, 8),
+    summary: [
+      'Deployed secure donations portals with data validation, improving transaction efficiency by 78%.',
       'Leveraged web analytics tools to track user behavior and optimize retention on the main website by 24%.'
     ],
   },
