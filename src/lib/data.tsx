@@ -17,7 +17,7 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 
 // EXPERIENCE
 import LogoJuvare from '/public/images/logos/logo-juvare.svg';
-import LogoJuvareDark from '/public/images/logos/logo-juvare-dark.svg';
+import LogoJuvareDark from '/public/images/logos/logo-juvare-dark.png';
 import LogoThe3rdEye from '/public/images/logos/logo-the3rdeye.png';
 import LogoDanMarinoFoundation from '/public/images/logos/logo-danmarino.png';
 import LogoCardoneEnterprises from '/public/images/logos/logo-cardone-enterprises.png';
