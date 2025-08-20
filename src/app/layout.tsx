@@ -10,8 +10,7 @@ import Footer from '@/components/layout/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Luis Vivar | Machine Learning Engineer';
-const description =
-  'A Software Engineer who specializes in Machine Learning.';
+const description = 'An AI / ML Engineer.';
 const url = 'http://luisvivar.com';
 
 export const metadata: Metadata = {
@@ -19,6 +18,23 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: [
+    'AI Enrgineer',
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Deep Learning',
+    'Data Science',
+    'Computer Vision',
+    'NLP',
+    'Python',
+    'TensorFlow',
+    'PyTorch',
+    'Keras',
+    'Scikit-Learn',
+    'Data Analysis',
+    'Data Visualization',
+    'Big Data',
+    'Data Engineer',
+    'AI Researcher',
     'Machine Learning Engineer',
     'Data Scientist',
     'Software Engineer',
@@ -50,7 +66,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
+    shortcut: '/favicon-96x96.png',
     apple: '/apple-touch-icon.png',
   },
 };
