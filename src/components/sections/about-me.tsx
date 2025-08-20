@@ -50,7 +50,7 @@ const AboutMeSection = () => {
             Passionate about leveraging technology to derive actionable insights and deliver impactful results.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2018, and since then,
+            I began my journey as a developer in 2018, and since then,
             I&apos;ve continued to grow and evolve, taking on new challenges and learning the latest technologies along the way. 
             Now, in my early thirties, 7 years after starting my programming
             journey, I&apos;m building cutting-edge web applications, fine-tuning LLMs, and using Gen AI every time I can.
