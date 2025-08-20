@@ -69,7 +69,7 @@ const AboutMeSection = () => {
             </Link>{' '}
             where I share a bit more personal stuff (usually travelling or hanging out with my family), or you can
             follow me on{' '}
-            <Link noCustomization external withUnderline href={EXTERNAL_LINKS.GITHUB}>
+            <Link noCustomization externalLink withUnderline href={EXTERNAL_LINKS.GITHUB}>
               GitHub 
             </Link>
             for more of my work.
