@@ -164,7 +164,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoThe3rdEye,
     // darkModeLogo: LogoThe3rdEyeLight,
     logoAlt: 'The 3rd Eye logo',
-    position: 'Front End Engineer',
+    position: 'Software Engineer',
     startDate: new Date(2021, 10),
     endDate: new Date(2022, 12),
     summary: [
@@ -177,7 +177,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoDanMarinoFoundation,
     // darkModeLogo: LogoDanMarinoFoundationLight,
     logoAlt: 'Dan Marino Foundation logo',
-    position: 'Front End Developer',
+    position: 'Software Developer',
     startDate: new Date(2020, 8),
     endDate: new Date(2021, 9),
     summary: [
@@ -188,7 +188,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoCardoneEnterprises,
     logoAlt: 'Cardone Enterprises logo',
-    position: 'UI/UX Developer',
+    position: 'Junior Developer',
     startDate: new Date(2020, 8),
     endDate: new Date(2018, 8),
     summary: [
