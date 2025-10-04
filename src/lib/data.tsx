@@ -1,4 +1,4 @@
-import { Github, Instagram } from 'lucide-react';
+import { Github, Instagram, Linkedin } from 'lucide-react';
 
 // SKILLS
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
@@ -37,7 +37,8 @@ import {
   // TestimonialDetails,
 } from '@/lib/types';
 
-export const EXTERNAL_LINKS = {
+export const EXTERNAL_LINKS = {  
+  LINKEDIN: 'https://linkedin.com/in/luisvivart',
   GITHUB: 'https://github.com/luisvivart',
   INSTAGRAM: 'https://instagram.com/luisvivart',
 };
